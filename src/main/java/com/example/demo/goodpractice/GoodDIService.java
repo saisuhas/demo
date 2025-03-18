@@ -10,6 +10,19 @@ public class GoodDIService {
 }
 
 /*
+🔹 Service Layer (GoodDIService)
+
+Implements the actual business logic.
+Can be reused by multiple controllers or components.
+Keeps logic separate from the controller, making it easier to test.
+🔹 Controller Layer (GoodDIController)
+
+Acts as an entry point for HTTP requests.
+Calls the service to get data.
+Converts the response into HTTP format.
+*/
+
+/*
 Why is this a Good Practice?
 Loose Coupling (Best Practice)
 
